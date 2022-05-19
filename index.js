@@ -6,7 +6,8 @@ const app = express();
 
 const enterpriseModel = require("./models/Enterprise");
 
-let xlsxRoutes = require("./routes/v1/uploadXlsx");
+let v1 = require("./routes/v1/uploadXlsx");
+let xlsxRoutes = require("./routes/v0/cargaXlsx");
 
 let PORT = process.env.PORT || 3001;
 
