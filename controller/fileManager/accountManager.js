@@ -1,4 +1,4 @@
-const { accountModel } = require("../models/Accounts");
+const { accountModel } = require("../../models/Accounts");
 
 async function createAccounts(data) {
   let accounts = []

@@ -6,7 +6,7 @@ const app = express();
 
 const enterpriseModel = require("./models/Enterprise");
 
-let xlsxRoutes = require("./routes/v1/uploadXlsx");
+let v1Routes = require("./routes/v1");
 
 let PORT = process.env.PORT || 3001;
 
@@ -19,7 +19,7 @@ app.use(
   })
 );
 
-app.use('/xlsx', xlsxRoutes);
+app.use('/v1', v1Routes);
 
 mongoose.connect(process.env.KEY, {
   useNewUrlParser: true,

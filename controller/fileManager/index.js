@@ -1,8 +1,8 @@
-const enterpriseModel = require("../models/Enterprise");
+const enterpriseModel = require("../../models/Enterprise");
 
-const { xlsxToData } = require("./../tools/xlsxConverter");
-const { createAccounts } = require("../tools/accountManager");
-const { createMovements } = require("../tools/movementManager");
+const { xlsxToData } = require("../../tools/xlsxConverter");
+const { createAccounts } = require("./accountManager");
+const { createMovements } = require("./movementManager");
 
 async function manageFiles(files, nameEnterprise, username) {
   let data = [xlsxToData(files[0]), xlsxToData(files[1])];
