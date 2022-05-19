@@ -20,7 +20,9 @@ const movementsSchema = new mongoose.Schema({
   deposit: {
     type: Number,
     required: false,
-  },
+  }
 })
 
-module.exports = movementsSchema;
+const movementModel = mongoose.model("movements", movementsSchema);
+
+module.exports = {movementModel, movementsSchema};

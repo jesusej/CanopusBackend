@@ -1,0 +1,150 @@
+[
+  [
+    {
+      "CONTPAQ i": "Catálogo de Cuentas al 31/Ene/2021",
+      "Hoja:      1": "Fecha: 28/Feb/2022"
+    },
+    {
+      "CONTPAQ i": "Nivel",
+      "__EMPTY": "  C ó d i g o",
+      "__EMPTY_1": "N o m b r e",
+      "__EMPTY_2": "T i p o",
+      "Lecar Consultoria en TI, S.C.": "Dig",
+      "__EMPTY_4": "Edo",
+      "__EMPTY_6": "Seg",
+      "__EMPTY_7": "Rubro",
+      "Hoja:      1": "Agrupador"
+    },
+    {
+      "Lecar Consultoria en TI, S.C.": "Agr",
+      "__EMPTY_4": "Fin",
+      "__EMPTY_5": "Moneda",
+      "__EMPTY_6": "Neg",
+      "__EMPTY_7": "NIF",
+      "Hoja:      1": "SAT"
+    },
+    {
+      "CONTPAQ i": 1,
+      "__EMPTY": "000-0100",
+      "__EMPTY_1": "ACTIVO",
+      "__EMPTY_2": "A Activo Deudora",
+      "__EMPTY_3": " ",
+      "Lecar Consultoria en TI, S.C.": " ",
+      "__EMPTY_4": " ",
+      "__EMPTY_5": "Peso Mexicano",
+      "Hoja:      1": " "
+    },
+    {
+      "CONTPAQ i": 2,
+      "__EMPTY": "000-0110",
+      "__EMPTY_1": "CIRCULANTE",
+      "__EMPTY_2": "A Activo Deudora",
+      "__EMPTY_3": " ",
+      "Lecar Consultoria en TI, S.C.": " ",
+      "__EMPTY_4": "Tit",
+      "__EMPTY_5": "Peso Mexicano",
+      "Hoja:      1": " "
+    },
+    {
+      "CONTPAQ i": 3,
+      "__EMPTY": "102-0000",
+      "__EMPTY_1": "Bancos",
+      "__EMPTY_2": "A Activo Deudora",
+      "__EMPTY_3": " ",
+      "Lecar Consultoria en TI, S.C.": " ",
+      "__EMPTY_4": "Si",
+      "__EMPTY_5": "Peso Mexicano",
+      "__EMPTY_7": 2,
+      "Hoja:      1": 102.01
+    },
+    {
+      "CONTPAQ i": 4,
+      "__EMPTY": "102-1000",
+      "__EMPTY_1": "Banco A",
+      "__EMPTY_2": "A Activo Deudora",
+      "__EMPTY_3": "Afectable",
+      "Lecar Consultoria en TI, S.C.": " ",
+      "__EMPTY_4": " ",
+      "__EMPTY_5": "Peso Mexicano",
+      "Hoja:      1": 102.01
+    }
+  ],
+  [
+    {
+      "CONTPAQ i": "Movimientos, Auxiliares del Catálogo",
+      "Hoja:      1": "Fecha: 28/Feb/2022"
+  },
+  {
+      "CONTPAQ i": "del 01/Jun/2016 al 30/Jun/2016"
+  },
+  {
+      "CONTPAQ i": "Moneda: Peso Mexicano"
+  },
+  {
+      "CONTPAQ i": "C u e n ta",
+      "__EMPTY": "N o m b r e",
+      "Hoja:      1": "Saldo Inicial"
+  },
+  {
+      "CONTPAQ i": "Fecha",
+      "__EMPTY": "Tipo",
+      "__EMPTY_1": "Número ",
+      "Lecar Consultoria en TI, S.C.": "Concepto",
+      "__EMPTY_2": "Referencia",
+      "__EMPTY_3": "Cargos",
+      "__EMPTY_4": "Abonos",
+      "Hoja:      1": "Saldo"
+  },
+  {
+      "CONTPAQ i": " "
+  },
+  {
+      "CONTPAQ i": "102-0000",
+      "__EMPTY": "Bancos",
+      "__EMPTY_4": "Saldo inicial :",
+      "Hoja:      1": 13084.95
+  },
+  {
+      "CONTPAQ i": " "
+  },
+  {
+      "CONTPAQ i": "102-1000",
+      "__EMPTY": "Banco A",
+      "__EMPTY_4": "Saldo inicial :",
+      "Hoja:      1": 2611.97
+  },
+  {
+      "CONTPAQ i": "01/Jun/2016",
+      "__EMPTY": "Ingresos",
+      "__EMPTY_1": 1,
+      "Lecar Consultoria en TI, S.C.": "INGRESOS A ",
+      "__EMPTY_3": 1532.21,
+      "Hoja:      1": 0
+  },
+  {
+      "CONTPAQ i": "01/Jun/2016",
+      "__EMPTY": "Ingresos",
+      "__EMPTY_1": 1,
+      "Lecar Consultoria en TI, S.C.": "INGRESOS B ",
+      "__EMPTY_2": "AB",
+      "__EMPTY_3": 1253,
+      "Hoja:      1": 0
+  },
+  {
+      "CONTPAQ i": "01/Jun/2016",
+      "__EMPTY": "Egresos",
+      "__EMPTY_1": 1,
+      "Lecar Consultoria en TI, S.C.": "Egresos A ",
+      "__EMPTY_4": 411.8,
+      "Hoja:      1": 0
+  },
+  {
+      "CONTPAQ i": "02/Jun/2016",
+      "__EMPTY": "Egresos",
+      "__EMPTY_1": 2,
+      "Lecar Consultoria en TI, S.C.": "Egresesos B ",
+      "__EMPTY_4": 12.55,
+      "Hoja:      1": 0
+  }
+  ]
+]

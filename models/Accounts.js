@@ -1,7 +1,11 @@
 const mongoose = require("mongoose");
-const movementsSchema = require("./Movements")
+const movements = require("./Movements")
 
-const accountsSchema = new mongoose.Schema({
+const accountSchema = new mongoose.Schema({
+  level: {
+    type: Number,
+    required: false,
+  },
   nameAccount: {
     type: String,
     required: false,
@@ -18,7 +22,13 @@ const accountsSchema = new mongoose.Schema({
     type: String,
     required: false,
   },
-  movements: [movementsSchema]
+  affectable: {
+    type: Boolean,
+    required: false,
+  },
+  movements: [movements.movementsSchema]
 })
 
-module.exports = accountsSchema;
+const accountModel = mongoose.model("accounts", accountSchema);
+
+module.exports = {accountSchema, accountModel};
