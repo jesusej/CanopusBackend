@@ -1,5 +1,5 @@
 
-const { movementModel } = require("../models/Movements");
+const { movementModel } = require("../../models/Movements");
 
 function createMovements(data, accounts) {
   
