@@ -14,6 +14,6 @@ router.get("/generate-income-statement", async(req, res) => {
   generateIncomeStatement(initialDate, endDate, enterpriseName, pdf);
 
   
-
+//this one to send to front end
   res.status(201).send();
 });

@@ -3,7 +3,7 @@ const enterpriseModel = require("../../models/Enterprise");
 const { xlsxToData } = require("../../tools/xlsxConverter");
 const { createAccounts } = require("./accountManager");
 const { createMovements } = require("./movementManager");
-
+//this one to get variable from database
 async function manageFiles(files, nameEnterprise, username) {
   let data = [xlsxToData(files[0]), xlsxToData(files[1])];
   let enterprise = await enterpriseModel.findOne({nameEnterprise}).exec();
