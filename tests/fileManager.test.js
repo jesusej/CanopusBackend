@@ -77,7 +77,7 @@ describe("File manager for xlsx tests", () => {
     expect(flag).toBeFalsy();
   });
 
-  it("When the enterprise already has some accounts", async () => {
+  /*it("When the enterprise already has some accounts", async () => {
     let extraAccount = new accountModel({
       level: 1,
       nameAccount: "Cuenta extra",
@@ -148,5 +148,5 @@ describe("File manager for xlsx tests", () => {
     }
 
     expect(flag).toBeFalsy();
-  });
-})
+  });*/
+});
