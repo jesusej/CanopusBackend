@@ -2,7 +2,9 @@ const enterpriseModel = require("./../../models/Enterprise");
 const { generatePercentages, generateSums } = require("./movementAdder");
 
 async function generateIncomeStatement(initialDate, endDate, nameEnterprise, pdf){
+  console.log(nameEnterprise);
   const enterprise = await enterpriseModel.findOne({nameEnterprise}).exec();
+  console.log(enterprise);
 
   if(enterprise && enterprise.accounts){
     const accounts = enterprise.accounts;
