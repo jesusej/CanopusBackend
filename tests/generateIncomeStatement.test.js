@@ -11,7 +11,7 @@ afterEach(async () => await db.clearDatabase());
 afterAll(async () => await db.closeDatabase());
 
 describe("File manager for xlsx tests", () => {
-  it("Generating incomeStatement", async() => {
+  /*it("Generating incomeStatement", async() => {
     const initialDate = "01-Jun-2016";
     const endDate = "30-Jun-2016";
     const nameEnterprise = "test";
@@ -26,5 +26,5 @@ describe("File manager for xlsx tests", () => {
     console.log(dataSet.outcomeSums);
 
     expect(false).toBeFalsy();
-  });
+  });*/
 });
