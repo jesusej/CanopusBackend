@@ -20,7 +20,7 @@ app.use(
   })
 );
 
-app.use('/v0/xlsx', xlsxRoutes);
+app.use('/xlsx', xlsxRoutes);
 app.use('/v1', v1Routes);
 
 mongoose.connect(process.env.KEY, {
