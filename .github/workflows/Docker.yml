@@ -39,5 +39,5 @@ jobs:
       - name: "Tag docker image"
         run: docker tag canopus-backend:latest canopusDocker.azurecr.io/canopus-backend:latest
       
-      -name: "Push docker image"
+      - name: "Push docker image"
         run: docker image push canopusDocker.azurecr.io/canopus-backend:latest
