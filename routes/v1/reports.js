@@ -1,19 +1,14 @@
 const express = require("express");
 
+const generateIncomeStatement = require("./../../controller/generateIncomeStatement");
+
 let router = express.Router();
 
-router.get("/generate-income-statement", async(req, res) => {
-  const params = req.params;
+router.get("/generate-income-statement/:initialDate/:endDate/:user/:nameEnterprise/:pdf", async(req, res) => {
 
-  const initialDate = params.initialDate;
-  const endDate = params.endDate;
-  const user = params.user;
-  const enterpriseName = params.enterpriseName;
-  const pdf = params.pdf;
-
-  generateIncomeStatement(initialDate, endDate, enterpriseName, pdf);
-
+  let data = await generateIncomeStatement(req.params.initialDate, req.params.endDate, req.params.nameEnterprise, req.params.pdf);
   
-//this one to send to front end
-  res.status(201).send();
+  res.status(200).send(data);
 });
+
+module.exports = router;

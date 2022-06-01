@@ -21,9 +21,9 @@ describe("File manager for xlsx tests", () => {
 
     console.log("Test prepared");
 
-    let dataSet = await generateIncomeStatement(initialDate, endDate, nameEnterprise, false);
+    let incomeStatement = await generateIncomeStatement(initialDate, endDate, nameEnterprise, false);
 
-    console.log(dataSet.outcomeSums);
+    console.log(incomeStatement)
 
     expect(false).toBeFalsy();
   });
