@@ -2,7 +2,8 @@ const express = require("express");
 
 const generateIncomeStatement = require("./../../controller/generateIncomeStatement");
 
-const generateTrialBalance  = require("../../controller/geenrateTrialBalance");
+const generateTrialBalance  = require("../../controller/genrateTrialBalance");
+
 const generateBalanceSheet = require("../../controller/generateBalanceSheet");
 
 let router = express.Router();
