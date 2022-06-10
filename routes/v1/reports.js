@@ -3,6 +3,7 @@ const express = require("express");
 const generateIncomeStatement = require("./../../controller/generateIncomeStatement");
 
 const generateTrialBalance  = require("../../controller/geenrateTrialBalance");
+const generateBalanceSheet = require("../../controller/generateBalanceSheet");
 
 let router = express.Router();
 
@@ -19,5 +20,11 @@ router.get("/trial-balance/:nameEneterprise", async(req, res) => {
 
   res.status(200).send(data);
 });
+
+router.get("/balance-sheet/:nameEneterprise", async(req, res) => {
+  let data = await generateBalanceSheet(req.params.nameEneterprise);
+
+  res.status(200).send(data);
+})
 
 module.exports = router;
